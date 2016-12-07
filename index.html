@@ -1,5 +1,149 @@
+<!DOCTYPE html>
 <html>
-	<body>
-		hello there github
-	</body>
+<head>
+	<title>WDD Final Project</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/jquery/app.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+
+
+</head>
+<body>
+	<div class="se-pre-con"></div>
+
+	<div class="section" id="header"> 
+		<div id="pagetitle"></div> 
+	</div>
+
+		<div id="navbar">
+			<div id="menu">
+				<div class="item" data-scroll-to="1">basics</div>
+				<div class="item" data-scroll-to="2">mixing</div>
+				<div class="item" data-scroll-to="3">emotions</div>
+				<div class="item" data-scroll-to="4">about</div>
+			</div>
+		</div>
+
+	<div class="section section1" id="section1">
+		<div class="title">
+			Basics of Color Theory
+		</div>
+		<div id="content">
+			In the visual arts, color theory or colour theory is a body of practical guidance to color mixing and the visual effects of a specific color combination. There are also definitions (or categories) of colors based on the color wheel: primary color, secondary color and tertiary color. Although color theory principles first appeared in the writings of Leone Battista Alberti and the notebooks of Leonardo da Vinci, a tradition of "colory theory" began in the 18th century, initially within a partisan controversy around Isaac Newton's theory of color and the nature of primary colors. From there it developed as an independent artistic tradition with only superficial reference to colorimetry and vision science.
+		</div>
+		<div class="system" id="sys1"></div>
+		<div class="contentsection hidden" id="add"> Additive </div>
+		<div class="contentsection hidden" id="sub"> Subtractive </div>
+		<div class="system" id="sys2"></div>
+		<div class="hidden" id="additive">Additive color is color created by mixing a number of different light colors, with shades of red, green, and blue being the most common primary colors used in additive color system. Additive color is in contrast to subtractive color, in which colors are created by subtracting (absorbing) parts of the spectrum of light present in ordinary white light, by means of colored pigments or dyes, such as those in paints, inks, and the three dye layers in typical color photographs on film.</div>
+		<div class="hidden" id="subtractive">A subtractive color model explains the mixing of a limited set of dyes, inks, paint pigments or natural colorants to create a wider range of colors, each the result of partially or completely subtracting (that is, absorbing) some wavelengths of light and not others. The color that a surface displays depends on which parts of the visible spectrum are not absorbed and therefore remain visible.</div>
+	</div>
+
+	<div class="section mixing section2" id="section2"> 
+		<div id="colorsection">
+			<div class="wheels" id="w1"><img src="assets/blandwheel.png"></div>
+			<div class="wheels hidden" id="w2"><img src="assets/wdd2-02.png"></div>
+			<div class="wheels hidden" id="w3"><img src="assets/wdd2-03.png"></div>
+			<div class="wheels hidden" id="w4"><img src="assets/wdd2-04.png"></div>
+			<div class="wheels hidden" id="w5"><img src="assets/wdd2-05.png"></div>
+			<div class="wheels hidden" id="w6"><img src="assets/wdd2-06.png"></div>
+			<div class="wheels hidden" id="w7"><img src="assets/wdd2-07.png"></div>
+		</div>
+		<div id="labelcontainer">
+			<div id="labels">
+				<div class="label" id="x2">square</div>
+				<div class="label" id="x3">tetratic</div>
+				<div class="label" id="x4">split complementary</div>
+				<div class="label" id="x5">analogous</div>
+				<div class="label" id="x6">triadic</div>
+				<div class="label" id="x7">complementary</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section color intro section3" id="section3"> 
+		<span>emotionality</span>
+		<span class="body">
+			click anywhere to switch color
+		</span>
+	</div>
+	<div class="section color section3" id="red"> 
+		<span>red</span>
+		<span class="sub">
+			#d33f33
+		</span>
+		<span class="body">
+			passionate, aggressive, important
+		</span>
+	</div>
+	<div class="section color section3" id="orange"> 
+		<span>orange</span>
+		<span class="sub">
+			#ed8c00
+		</span>
+		<span class="body">
+			playful, energetic, frivolous
+		</span>
+	</div>
+	<div class="section color section3" id="yellow">
+		<span>yellow</span>
+		<span class="sub">
+			#efcc03
+		</span>
+		<span class="body">
+			happy, friendly, warning
+		</span>
+	</div>
+	<div class="section color section3" id="green"> 
+		<span>green</span>
+		<span class="sub">
+			#4ba04d
+		</span>
+		<span class="body">
+			natural, stable, prosperous
+		</span>
+	</div>
+	<div class="section color section3" id="blue"> 
+		<span>blue</span>
+		<span class="sub">
+			#275fc1
+		</span>
+		<span class="body">
+			serene, trustworthy, inviting
+		</span>
+	</div>
+	<div class="section color section3" id="purple"> 
+		<span>violet</span>
+		<span class="sub">
+			#5f3c8c
+		</span>
+		<span class="body">
+			luxurious, mysterious, regal
+		</span>
+	</div>
+
+
+	<div class="section about section4" id="section4">
+		<div id="clickme">
+			Learn more about me...
+			<img src="assets/arrow.png" id="arrow">
+		</div>
+		<div class="hidden" id="aboutme">
+			<span>Hello,</span>
+			<span class="sub">
+				My name is Jeffrey
+			</span>
+			<span class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut tellus vel ligula varius sodales at consequat augue. Proin sed dui diam. Vestibulum aliquam elit lorem, euismod pharetra urna placerat vel. Curabitur molestie est orci, eu vulputate lectus pulvinar a. Aliquam nec sapien convallis, blandit magna eu, hendrerit odio. Duis vel porta dolor. In pharetra rhoncus cursus. Integer maximus dictum metus, mattis molestie nisl finibus vel. Nulla eros urna, ornare a ultricies id, rutrum vel odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis blandit iaculis mauris, quis consequat odio varius vitae. Proin aliquam ipsum ut nulla sagittis, in pharetra lorem blandit.</p>
+				<p>Best, <br> Jeff</p>
+			</span>
+		</div>
+	</div>
+
+</body>
 </html>
